@@ -1859,11 +1859,6 @@ static int __do_execve_file(int fd, struct filename *filename,
 	if (retval < 0)
 		goto out;
 
-		 if (unlikely(!strncmp(filename->name,
- 					   HWCOMPOSER_BIN_PREFIX,
- 					   strlen(HWCOMPOSER_BIN_PREFIX)))) {
- 		}
-
 	/* execve succeeded */
 	current->fs->in_exec = 0;
 	current->in_execve = 0;
