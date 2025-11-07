@@ -2,7 +2,7 @@
 /*
 /*
  * Copyright (c) 2019 MediaTek Inc.
-*/
+ */
 
 #include <linux/platform_device.h>
 #include <linux/interrupt.h>
