@@ -73,3 +73,4 @@ obj-$(CONFIG_CPUMAXFREQ) 	+= cpufreq/
 # C3T code for HQ-223831 by wangmingyu at 2022/09/09 start
 obj-$(CONFIG_DEBUG_POLICY) += debug_policy.o
 # C3T code for HQ-223831 by wangmingyu at 2022/09/09 end
+obj-$(CONFIG_BATTERY_SAVER)	+= battery_saver.o
